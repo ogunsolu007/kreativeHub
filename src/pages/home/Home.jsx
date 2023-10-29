@@ -18,13 +18,15 @@ const Home = () => {
             renmote tem.Join us in thriving ecosystem of innovation and success.
           </p>
         </div>
-        <div className="image">
-          <img src="/assets/desk29.jpeg" alt="deskspace" />
+        <div className="image-home">
+          <img src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=2525&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="deskspace" />
         </div>
       </section>
+      <div className=" bookspace-center">
       <Link to="spaces">
          <button className="bookspace">Book a Space</button>
       </Link>
+      </div>
      
     </div>
   );
