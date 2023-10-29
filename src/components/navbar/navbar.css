@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  font-family: "Poppins", sans-serif;
+}
 .navbar{
-    height: 50px;
-    background-color: #003580;
+    height: 10vh;
+    background-color: #64CCC5;
     display: flex;
     justify-content: center;
   }
@@ -20,8 +24,14 @@
   
   .navButton{
     margin-left: 20px;
-    border: none;
+    border-radius: 20px;
+    border: 2px;
     padding: 5px 10px;
     cursor: pointer;
-    color: #003580;
+    color: #176B87;
+    font-family: "Poppins", sans-serif;
+  }
+  .navButton:hover{
+    transition: ease-in 0.3s;
+    opacity: 50%;
   }

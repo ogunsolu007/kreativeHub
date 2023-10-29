@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./bookingForm.css"
 
 function BookingForm({ onClose, spaceTitle, spacePrice }) {
   const [fullName, setFullName] = useState("");

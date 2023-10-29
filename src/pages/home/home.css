@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+
 .landing {
   display: flex;
   justify-content: center;
@@ -10,9 +23,13 @@
 .landing > div {
   flex: 1;
 }
+
+.home{
+  display: flex;
+  flex-direction: column;
+}
 .landing-heading {
   font-size: 32px;
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 .landing-summary {
@@ -27,10 +44,27 @@ img {
   width: 300px;
   margin: 20px auto;
   padding: 8px 30px;
-  background-color: #003580;
+  background-color: #64CCC5;
   border: none;
   color: aliceblue;
   border-radius: 500px;
   outline: none;
   cursor: pointer;
+
+  align-self: center;
+  justify-self: center;
+}
+
+.bookspace:hover{
+  opacity: 30%;
+
+  transition: ease-in;
+  transition-duration: 0.3s;
+  
+}
+
+.image-home{
+  height: 500px;
+  border-style:groove;
+  
 }
